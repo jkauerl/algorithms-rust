@@ -12,3 +12,5 @@
 //
 // It returns the average loss by dividing the `total_loss` by total no. of
 // elements.
+
+pub fun neg_log_likelihood(y_true: &[f64], y_pred: &[f64]) -> f64 {}
