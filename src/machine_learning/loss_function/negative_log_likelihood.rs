@@ -32,7 +32,7 @@ mod tests {
         let predicted_values: Vec<f64> = vec![0.9, 0.1, 0.8];
         assert_eq!(
             neg_log_likelihood(&actual_values, &predicted_values),
-            0.164252033486018
+            0.14462152754328741
         );
     }
 }
